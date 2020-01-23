@@ -1,8 +1,9 @@
 /*
- * HashSet does not care about Comparable interface.
- * However, it looks for equals() and hashcode() methods.
+ * HashSet with equals() and hashcode() methods. No need
+ * of comparable interface.
+ * 
  */
-package setsdemo_02;
+package hashSetDemo;
 
 import java.util.Objects;
 
